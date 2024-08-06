@@ -1,20 +1,20 @@
 <mxfile host="65bd71144e">
     <diagram id="3N_3DvkC66j_aQpjlh82" name="Page-1">
-        <mxGraphModel dx="2303" dy="2809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" background="none" math="0" shadow="1">
+        <mxGraphModel dx="448" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" background="none" math="0" shadow="1">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="2" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="30" y="600" width="49.29" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#660000;" edge="1" parent="1" source="3" target="6">
+                <mxCell id="30" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#660000;" parent="1" source="3" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="80" y="170"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#660000;" edge="1" parent="1" source="3">
+                <mxCell id="32" value="" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#660000;" parent="1" source="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="200" y="590" as="targetPoint"/>
                         <Array as="points">
@@ -22,14 +22,14 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="34" value="" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#660000;" edge="1" parent="1" source="3" target="33">
+                <mxCell id="34" value="" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#660000;" parent="1" source="3" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="130" y="475"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#F00000;" edge="1" parent="1" source="3">
+                <mxCell id="37" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#F00000;" parent="1" source="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="200" y="720" as="targetPoint"/>
                         <Array as="points">
@@ -37,7 +37,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="38" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;entryX=0.059;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=9;fontColor=#F00000;" edge="1" parent="1" source="3" target="17">
+                <mxCell id="38" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;entryX=0.059;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=9;fontColor=#F00000;" parent="1" source="3" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="180" y="842"/>
@@ -45,14 +45,14 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;entryX=0.015;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=9;fontColor=#F00000;" edge="1" parent="1" source="3" target="18">
+                <mxCell id="39" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;entryX=0.015;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=9;fontColor=#F00000;" parent="1" source="3" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="120" y="934"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="40" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#F00000;" edge="1" parent="1" source="3">
+                <mxCell id="40" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#F00000;" parent="1" source="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="200" y="1020" as="targetPoint"/>
                         <Array as="points">
@@ -60,7 +60,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="41" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#F00000;" edge="1" parent="1" source="3">
+                <mxCell id="41" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#F00000;" parent="1" source="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="199.9999999999999" y="310" as="targetPoint"/>
                         <Array as="points">
@@ -70,13 +70,13 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Comic Sans MS&quot;&gt;JARVIS&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;horizontal=1;labelBackgroundColor=none;spacing=-8;spacingTop=-17;spacingLeft=-1;spacingBottom=-12;fontColor=#F00000;" vertex="1" parent="1">
+                <mxCell id="3" value="&lt;p&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Comic Sans MS&quot;&gt;JARVIS&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;horizontal=1;labelBackgroundColor=none;spacing=-8;spacingTop=-17;spacingLeft=-1;spacingBottom=-12;fontColor=#F00000;" parent="1" vertex="1">
                     <mxGeometry x="29.29" y="620" width="50" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="210" y="140" width="73.94" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" edge="1" parent="1" source="6" target="42">
+                <mxCell id="44" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" parent="1" source="6" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="440" y="150" as="targetPoint"/>
                         <Array as="points">
@@ -85,39 +85,39 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="Automation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Comic Sans MS;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#660000;" vertex="1" parent="1">
+                <mxCell id="6" value="Automation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Comic Sans MS;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#660000;" parent="1" vertex="1">
                     <mxGeometry x="201.97" y="155" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="210" y="280" width="73.94" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="215" y="440" width="73.94" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="9" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="213.03" y="560" width="73.94" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="10" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="206.06" y="680" width="73.94" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="208.03" y="800" width="73.94" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="12" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="208.03" y="900" width="73.94" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Brain" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+                <mxCell id="13" value="Brain" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
                     <mxGeometry x="220" y="305" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#E8F005;" edge="1" parent="1" source="14" target="48">
+                <mxCell id="49" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#E8F005;" parent="1" source="14" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="440" y="480" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Comic Sans MS;fontColor=#660000;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
-                    <mxGeometry x="226.97" y="455" width="50" height="30" as="geometry"/>
+                <mxCell id="14" value="Dialogs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Comic Sans MS;fontColor=#660000;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="1" vertex="1">
+                    <mxGeometry x="216.97" y="455" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#E8F005;entryX=-0.005;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="15" target="50">
+                <mxCell id="51" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#E8F005;entryX=-0.005;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="15" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="440" y="610" as="targetPoint"/>
                         <Array as="points">
@@ -125,10 +125,10 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="Features" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+                <mxCell id="15" value="Features" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
                     <mxGeometry x="210" y="575" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=19;fontColor=#E8F005;entryX=0.002;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="16" target="52">
+                <mxCell id="53" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=19;fontColor=#E8F005;entryX=0.002;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="16" target="52" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="440" y="740" as="targetPoint"/>
                         <Array as="points">
@@ -136,10 +136,10 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" value="NetHyTechSTT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1;labelBackgroundColor=none;" vertex="1" parent="1">
+                <mxCell id="16" value="NetHyTechSTT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="198.94" y="710" width="90" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=19;fontColor=#E8F005;entryX=0.002;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="17" target="54">
+                <mxCell id="55" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=19;fontColor=#E8F005;entryX=0.002;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="17" target="54" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="440" y="845" as="targetPoint"/>
                         <Array as="points">
@@ -147,10 +147,10 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" value="Text to Speech" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+                <mxCell id="17" value="Text to Speech" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1;labelBorderColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="200" y="820" width="90" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=19;fontColor=#E8F005;" edge="1" parent="1" source="18" target="57">
+                <mxCell id="58" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=19;fontColor=#E8F005;" parent="1" source="18" target="57" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="440" y="970" as="targetPoint"/>
                         <Array as="points">
@@ -158,31 +158,31 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="Time operations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="18" value="Time operations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="200" y="920" width="90" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=19;fontColor=#E8F005;" edge="1" parent="1" source="19" target="59">
+                <mxCell id="60" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=19;fontColor=#E8F005;" parent="1" source="19" target="59" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                <mxCell id="19" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Folder_Blank.svg;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
                     <mxGeometry x="208.03" y="990" width="73.94" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="Vision" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="20" value="Vision" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Comic Sans MS;fontColor=#660000;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="220" y="1010" width="50" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;labelBackgroundColor=none;labelBorderColor=none;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#660000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+                <mxCell id="33" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;labelBackgroundColor=none;labelBorderColor=none;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=9;fontColor=#660000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
                     <mxGeometry x="193.03" y="465" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Automation_Brain.py&amp;nbsp; Battery.py&amp;nbsp; open_App.py&amp;nbsp; Play_music.py&amp;nbsp; play_music_Sfs.py scroll_system.py tab_automation.py Web_Data.py web_open.py Youtube_play_back.py&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" vertex="1" parent="1">
+                <mxCell id="42" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Automation_Brain.py&amp;nbsp; Battery.py&amp;nbsp; open_App.py&amp;nbsp; Play_music.py&amp;nbsp; play_music_Sfs.py scroll_system.py tab_automation.py Web_Data.py web_open.py Youtube_play_back.py&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" parent="1" vertex="1">
                     <mxGeometry x="460" y="40" width="550" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="&lt;font color=&quot;#e8f005&quot; style=&quot;font-size: 23px;&quot;&gt;File System&lt;/font&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+                <mxCell id="45" value="&lt;font color=&quot;#e8f005&quot; style=&quot;font-size: 23px;&quot;&gt;File System&lt;/font&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
                     <mxGeometry x="510" y="-40" width="150" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Brain.py&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" vertex="1" parent="1">
+                <mxCell id="46" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Brain.py&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" parent="1" vertex="1">
                     <mxGeometry x="480" y="255" width="180" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="46">
+                <mxCell id="47" style="edgeStyle=elbowEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="290" y="321.9" as="sourcePoint"/>
                         <mxPoint x="460" y="350" as="targetPoint"/>
@@ -191,22 +191,22 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="48" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;DLG_Data.py&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" vertex="1" parent="1">
+                <mxCell id="48" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;DLG_Data.py&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" parent="1" vertex="1">
                     <mxGeometry x="470" y="400" width="180" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Cheak_internetspeed.py create_file.py&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" vertex="1" parent="1">
+                <mxCell id="50" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Cheak_internetspeed.py create_file.py&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" parent="1" vertex="1">
                     <mxGeometry x="470" y="520" width="310" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Listen.py&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" vertex="1" parent="1">
+                <mxCell id="52" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Listen.py&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" parent="1" vertex="1">
                     <mxGeometry x="460" y="650" width="310" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Fast_Df_tts.py&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" vertex="1" parent="1">
+                <mxCell id="54" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Fast_Df_tts.py&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" parent="1" vertex="1">
                     <mxGeometry x="460" y="765" width="310" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;brain.py throw_alert.py&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" vertex="1" parent="1">
+                <mxCell id="57" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;brain.py throw_alert.py&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" parent="1" vertex="1">
                     <mxGeometry x="460" y="870" width="310" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Mv_brain.py vbrain.py&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" vertex="1" parent="1">
+                <mxCell id="59" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Mv_brain.py vbrain.py&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;labelBackgroundColor=none;labelBorderColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#F00000;" parent="1" vertex="1">
                     <mxGeometry x="460" y="970" width="310" height="70" as="geometry"/>
                 </mxCell>
             </root>
