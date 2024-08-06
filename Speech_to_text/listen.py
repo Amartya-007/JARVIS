@@ -9,7 +9,7 @@ from os import getcwd
 # Setting up Chrome options with specific arguments
 chrome_options = Options()
 chrome_options.add_argument("--use-fake-ui-for-media-stream")
-# chrome_options.add_argument("--headless=new")  # Remove this if you want to see the browser UI
+# chrome_options.add_argument("--headless=new")  # Uncomment this if you dont want to see the browser UI
 
 # Manually set the path to the ChromeDriver executable
 chrome_driver_path = f"{getcwd()}\\chromedriver.exe"
