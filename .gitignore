@@ -1,0 +1,37 @@
+# Ignore virtual environment directories
+env/
+venv/
+*.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and database files
+*.log
+*.sqlite3
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build and distribution files
+build/
+dist/
+*.egg-info/
+*.egg
+*.pyinstaller/
+*.spec
+# Ignore chromedriver executable
+chromedriver.exe
