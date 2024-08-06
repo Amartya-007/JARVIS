@@ -1,51 +1,112 @@
 import pyautogui
 
 def open_new_tab():
-    pyautogui.hotkey('ctrl', 't')
+    #* Open a new browser tab.
+    try:
+        pyautogui.hotkey('ctrl', 't')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def close_tab():
-    pyautogui.hotkey('ctrl', 'w')
+    #* Close the current browser tab.
+    try:
+        pyautogui.hotkey('ctrl', 'w')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def open_browser_menu():
-    pyautogui.hotkey('alt', 'f')
+    #* Open the browser menu.
+    try:
+        pyautogui.hotkey('alt', 'f')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def zoom_in():
-    pyautogui.hotkey('ctrl', '+')
+    #* Zoom in on the current page.
+    try:
+        pyautogui.hotkey('ctrl', '+')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def zoom_out():
-    pyautogui.hotkey('ctrl', '-')
+    #* Zoom out on the current page.
+    try:
+        pyautogui.hotkey('ctrl', '-')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def refresh_page():
-    pyautogui.hotkey('ctrl', 'r')
+    #* Refresh the current page.
+    try:
+        pyautogui.hotkey('ctrl', 'r')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def switch_to_next_tab():
-    pyautogui.hotkey('ctrl', 'tab')
+    #* Switch to the next browser tab.
+    try:
+        pyautogui.hotkey('ctrl', 'tab')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def switch_to_previous_tab():
-    pyautogui.hotkey('ctrl', 'shift', 'tab')
+    #* Switch to the previous browser tab.
+    try:
+        pyautogui.hotkey('ctrl', 'shift', 'tab')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def open_history():
-    pyautogui.hotkey('ctrl', 'h')
+    #* Open the browser history.
+    try:
+        pyautogui.hotkey('ctrl', 'h')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def open_bookmarks():
-    pyautogui.hotkey('ctrl', 'b')
+    #* Open the bookmarks bar.
+    try:
+        pyautogui.hotkey('ctrl', 'b')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def go_back():
-    pyautogui.hotkey('alt', 'left')
+    #* Go back to the previous page.
+    try:
+        pyautogui.hotkey('alt', 'left')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def go_forward():
-    pyautogui.hotkey('alt', 'right')
+    #* Go forward to the next page.
+    try:
+        pyautogui.hotkey('alt', 'right')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def open_dev_tools():
-    pyautogui.hotkey('ctrl', 'shift', 'i')
+    #* Open the browser's developer tools.
+    try:
+        pyautogui.hotkey('ctrl', 'shift', 'i')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def toggle_full_screen():
-    pyautogui.hotkey('f11')
+    #* Toggle full screen mode.
+    try:
+        pyautogui.hotkey('f11')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def open_private_window():
-    pyautogui.hotkey('ctrl', 'shift', 'n')
+    #* Open a new private browsing window.
+    try:
+        pyautogui.hotkey('ctrl', 'shift', 'n')
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 def perform_browser_action(text):
+    #* Perform a browser action based on the given text command.
     if "open new tab" in text or "new tab kholo" in text:
         open_new_tab()
     elif "close tab" in text or "tab band karo" in text:
@@ -77,4 +138,4 @@ def perform_browser_action(text):
     elif "open private window" in text or "private window kholo" in text:
         open_private_window()
     else:
-        pass
+        print("Unknown command") 

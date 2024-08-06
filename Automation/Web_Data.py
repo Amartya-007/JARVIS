@@ -1,3 +1,6 @@
+
+#* This file contains the List of Websites and their URLs which we will be using in the calling the website function in the main file.
+
 websites = {
     "youtube": "www.youtube.com",
     "facebook": "www.facebook.com",
@@ -173,5 +176,6 @@ websites = {
     "zcash.org": "www.zcash.org",
     "dash.org": "www.dash.org",
     "dogecoin.com": "www.dogecoin.com",
-    "gpt":"www.chatgpt.com/"
+    "gpt": "www.chatgpt.com"
 }
+

@@ -2,8 +2,8 @@ from Automation.open_App import open_App
 from Automation.web_open import openweb
 import pyautogui as gui
 from Automation.Play_music import play_music_on_youtube
-from TextToSpeech import Fast_DF_TTS
-from Automation.play_music_Sfs import play_music_on_spotify
+from Text_Speak import Fast_DF_TTS
+from Automation.Spotify_music import play_music_on_spotify
 from Automation.Battery import check_percentage
 from os import getcwd
 import time
@@ -12,7 +12,7 @@ from Automation.Youtube_play_back import perform_media_action
 import pywhatkit
 from Automation.scroll_system import perform_scroll_action
 import threading
-from TextToSpeech.Fast_DF_TTS import speak
+from Text_Speak.Fast_DF_TTS import speak
 
 def play():
     gui.press("space")

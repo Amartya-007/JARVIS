@@ -1,54 +1,71 @@
 import pyautogui
 
 def volume_up():
+    #* Increase the volume by pressing the 'up' arrow key.
     pyautogui.press('up')
 
 def volume_down():
+    #* Decrease the volume by pressing the 'down' arrow key.
     pyautogui.press('down')
 
 def seek_forward():
+    #* Seek forward by pressing the 'right' arrow key.
     pyautogui.press('right')
 
 def seek_backward():
+    #* Seek backward by pressing the 'left' arrow key.
     pyautogui.press('left')
 
 def seek_forward_10s():
+    #* Seek forward 10 seconds by pressing the 'l' key.
     pyautogui.press('l')
 
 def seek_backward_10s():
+    #* Seek backward 10 seconds by pressing the 'j' key.
     pyautogui.press('j')
 
 def seek_backward_frame():
+    #* Seek backward by one frame by pressing the ',' key.
     pyautogui.press(',')
 
 def seek_forward_frame():
+    #* Seek forward by one frame by pressing the '.' key.
     pyautogui.press('.')
 
 def seek_to_beginning():
+    #* Seek to the beginning by pressing the 'home' key.
     pyautogui.press('home')
 
 def seek_to_end():
+    #* Seek to the end by pressing the 'end' key.
     pyautogui.press('end')
 
 def seek_to_previous_chapter():
+    #* Seek to the previous chapter by pressing 'ctrl' + 'left' arrow key.
     pyautogui.hotkey('ctrl', 'left')
 
 def seek_to_next_chapter():
+    #* Seek to the next chapter by pressing 'ctrl' + 'right' arrow key.
     pyautogui.hotkey('ctrl', 'right')
 
 def decrease_playback_speed():
+    #* Decrease playback speed by pressing 'shift' + ',' key.
     pyautogui.hotkey('shift', ',')
 
 def increase_playback_speed():
+    #* Increase playback speed by pressing 'shift' + '.' key.
     pyautogui.hotkey('shift', '.')
 
 def move_to_next_video():
+    #* Move to the next video by pressing 'shift' + 'n' key.
     pyautogui.hotkey('shift', 'n')
 
 def move_to_previous_video():
+    #* Move to the previous video by pressing 'shift' + 'p' key.
     pyautogui.hotkey('shift', 'p')
 
 def perform_media_action(text):
+    #* Perform the appropriate media action based on the input text.
     if "volume up" in text or "volume badhao" in text:
         volume_up()
     elif "volume down" in text or "volume ghatao" in text:
@@ -83,4 +100,3 @@ def perform_media_action(text):
         move_to_previous_video()
     else:
         pass
-
