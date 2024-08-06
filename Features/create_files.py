@@ -93,8 +93,8 @@ def create_file(text, directory=None):
     except IOError as e:
         print(f"Error creating file: {e}")
 
-# Example usage
-create_file("create a python file named example")
-create_file("create an image file")
-create_file("create a video file named movie")
-create_file("create a properties file named config")
+# # Example usage
+# create_file("create a python file named example")
+# create_file("create an image file")
+# create_file("create a video file named movie")
+# create_file("create a properties file named config")
