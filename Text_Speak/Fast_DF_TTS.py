@@ -1,7 +1,7 @@
 import requests 
 from playsound import playsound  
 import os
-from dotenv import load_dotenv  # pip install python-dotenv
+from dotenv import load_dotenv  
 from typing import Union
 
 # Load environment variables from .env file
