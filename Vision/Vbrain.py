@@ -49,26 +49,31 @@ def brain(encoded_image):
     }
 
     payload = {
-        "model": "llava-hf/llava-1.5-7b-hf",
-        "messages": [
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image_url",
-                        "image_url": {
-                            "url": f"data:image/jpeg;base64,{encoded_image}"
-                        }
-                    },
-                    {
-                        "type": "text",
-                        "text": "Describe the object in the image in detail, including its color, shape, any text written on it, the company of the object, and the face of the human (boy or girl) if present."
+    "model": "llava-hf/llava-1.5-7b-hf",
+    "messages": [
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "url": f"data:image/jpeg;base64,{encoded_image}"
                     }
-                ]
-            }
-        ]
-    }
-
+                },
+                {
+                    "type": "text",
+                    "text": (
+                        "Describe the object in the image in detail, including its color, shape, any text written on it, "
+                        "the company or brand of the object, and the face of any human (boy or girl) if present. "
+                        "Also, provide details about the background environment, the object's condition, and any visible accessories "
+                        "or features that might be important. If a human is present, describe their approximate age, clothing, "
+                        "and any notable expressions or gestures."
+                    )
+                }
+            ]
+        }
+    ]
+}
 
     # Convert the payload to JSON
     payload_json = json.dumps(payload)
