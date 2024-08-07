@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Retrieve the JARVIS_LOGO path from environment variables
-logo_path = os.getenv("JARVIS_LOGO")
+logo_path = os.getenv("JARVIS_LOGO.png")
 
 def Alert(Text):
     # Use the logo_path retrieved from the .env file
@@ -21,7 +21,10 @@ def Alert(Text):
 
     toast.set_audio(audio.Default, loop=False)
 
-    toast.add_actions(label="Click me", launch="https://www.google.com")
-    toast.add_actions(label="Dismiss", launch="https://www.google.com")
+    # Update actions
+    toast.add_actions(label="OK")
+    toast.add_actions(label="Dismiss")
 
     toast.show()
+
+

@@ -24,7 +24,6 @@ def battery_Alert():
         time.sleep(10)
 
 def check_plug():
-    print("_____started____")
     previous_state = psutil.sensors_battery().power_plugged
     while True:
         battery = psutil.sensors_battery()

@@ -75,14 +75,3 @@ def check_Alam(Alam_path):
         
         time.sleep(10)
 
-# Example usage
-if __name__ == "__main__":
-    # Start monitoring the schedule and alarm files in separate threads
-    schedule_thread = threading.Thread(target=check_schedule, args=(os.path.join(getcwd(), 'schedule.txt'),))
-    alarm_thread = threading.Thread(target=check_Alam, args=(Alam_path,))
-    
-    schedule_thread.start()
-    alarm_thread.start()
-    
-    schedule_thread.join()
-    alarm_thread.join()

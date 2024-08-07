@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set default paths if environment variables are not set
-SCHEDULE_FILE_PATH = os.getenv('SCHEDULE_FILE_PATH', r'F:\JARVIS\schedule.txt')
-ALARM_FILE_PATH = os.getenv('ALARM_FILE_PATH', r'F:\JARVIS\alarm.txt')
+SCHEDULE_FILE_PATH = os.getenv('SCHEDULE_FILE_PATH')
+ALARM_FILE_PATH = os.getenv('ALARM_FILE_PATH')
 
 # Global variable to store the last write date
 last_write_date = None
@@ -127,9 +127,3 @@ def input_manage_alarm(input_text):
     else:
         print("No valid time found in input")
 
-# Example usage:
-if __name__ == "__main__":
-    input_manage("Tell me to wake up at 5:45 AM")
-    input_manage("Tell me to wake up at 8:31 AM")
-    input_manage_alarm("Set alarm for 12:00 PM")
-    input_manage_alarm("Set alarm for 11:00 PM")

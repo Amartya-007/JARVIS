@@ -24,5 +24,3 @@ def openweb(webname):
     if urls_to_open:
         print("Opening...")
 
-
-openweb("youtube")

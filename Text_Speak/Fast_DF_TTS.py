@@ -65,7 +65,3 @@ def speak(message: str, voice: str = "Matthew", folder: str = "", extension: str
     except Exception as e:
         print(f"An error occurred while speaking: {e}")
         return str(e)
-
-
-# Example usage
-speak("I am being build again by amartya vishwakarma.")

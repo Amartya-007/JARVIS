@@ -4,29 +4,38 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.common.exceptions import NoSuchWindowException, WebDriverException
 from os import getcwd
 
 # Setting up Chrome options with specific arguments
 chrome_options = Options()
 chrome_options.add_argument("--use-fake-ui-for-media-stream")
-# chrome_options.add_argument("--headless=new")  # Uncomment this if you dont want to see the browser UI
+chrome_options.add_argument("--headless=new")  # Uncomment this if you don't want to see the browser UI
 
 # Manually set the path to the ChromeDriver executable
 chrome_driver_path = f"{getcwd()}\\chromedriver.exe"
 service = Service(executable_path=chrome_driver_path)
 
 # Setting up the Chrome driver with the service and options
-driver = webdriver.Chrome(service=service, options=chrome_options)
+driver = None
+try:
+    driver = webdriver.Chrome(service=service, options=chrome_options)
 
-# Creating the URL for the website using the current working directory
-website = "https://allorizenproject1.netlify.app/"
+    # Creating the URL for the website using the current working directory
+    website = "https://allorizenproject1.netlify.app/"
 
-# Opening the website in the Chrome browser
-driver.get(website)
+    # Opening the website in the Chrome browser
+    driver.get(website)
+except WebDriverException as e:
+    print(f"An error occurred while opening the browser: {e}")
 
 Recog_File = f"{getcwd()}\\input.txt"
 
 def listen():
+    if not driver:
+        print("Driver not initialized.")
+        return
+
     try:
         start_button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, 'startButton')))
         start_button.click()
@@ -48,11 +57,11 @@ def listen():
                     print("User:", output_text)
     except KeyboardInterrupt:
         print("Process interrupted by user.")
+    except NoSuchWindowException as e:
+        print(f"Window already closed: {e}")
     except Exception as e:
         print("An error occurred:", e)
     finally:
-        driver.quit()
+        if driver:
+            driver.quit()
 
-# # Call the listen function
-# if __name__ == "__main__":
-#     listen()

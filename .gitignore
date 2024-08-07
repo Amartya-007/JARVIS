@@ -35,3 +35,8 @@ dist/
 *.spec
 # Ignore chromedriver executable
 chromedriver.exe
+
+captured_image.png
+Chat_history.txt
+Alam_data.txt
+input.txt
