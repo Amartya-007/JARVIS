@@ -197,3 +197,8 @@ zipp==3.19.2
 zope.deprecation==5.0
 zope.interface==6.4.post2
 webscout
+opencv-python
+tensorflow 
+keras
+opencv-python-headless
+numpy
